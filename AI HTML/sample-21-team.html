@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample 21 - Team</title>
+    <style>
+      body { margin:0; font-family:Arial,sans-serif; background:#f8fafc; }
+      .container { max-width:1100px; margin:60px auto; padding:0 20px; }
+      .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; }
+      .member { background:white; border-radius:20px; padding:20px; box-shadow:0 12px 20px rgba(15,23,42,0.05); }
+      .avatar { width:80px; height:80px; border-radius:50%; background:linear-gradient(135deg,#60a5fa,#a78bfa); margin-bottom:15px; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Meet the team</h1>
+      <div class="grid">
+        <div class="member">
+          <div class="avatar"></div>
+          <h3>Ruby Nguyen</h3>
+          <p>Product Strategy</p>
+        </div>
+        <div class="member">
+          <div class="avatar" style="background:linear-gradient(135deg,#34d399,#10b981);"></div>
+          <h3>Marco Diaz</h3>
+          <p>Design Systems</p>
+        </div>
+        <div class="member">
+          <div class="avatar" style="background:linear-gradient(135deg,#f472b6,#f59e0b);"></div>
+          <h3>Anais Brooks</h3>
+          <p>Engineering</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

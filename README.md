@@ -18,14 +18,24 @@ This repository contains beginner-friendly HTML snippets and mini examples that 
 - responsive design basics
 - reusable markup patterns
 
-Whether you're learning HTML for the first time or want quick reference examples, this repo is meant to be simple, readable, and easy to explore.
+The project also includes a growing set of demo pages inside the `AI HTML` folder.
 
-## Why this repo?
+## AI HTML folder
 
-- Minimal and beginner-friendly
-- Easy to copy into a browser or code editor
-- Great for learning by example
-- Focused on clean, standards-based HTML
+The `AI HTML` directory contains more than 20 example pages covering common UI patterns, including:
+
+- hero sections
+- pricing blocks
+- contact forms
+- portfolios
+- blog layouts
+- dashboards
+- ecommerce cards
+- landing pages
+- event pages
+- resume layouts
+- FAQs and testimonials
+- checkout and CTA examples
 
 ## Getting Started
 
@@ -48,18 +58,6 @@ cd HTML-examples
 - Practice forms, labels, and input controls
 - Build a simple layout using divs, sections, and containers
 - Add semantic tags like header, main, nav, and footer
-
-## Example Ideas
-
-This repository can grow to include examples such as:
-
-- landing page
-- product card
-- pricing table
-- contact form
-- portfolio section
-- responsive navbar
-- article layout
 
 ## Contributing
 
