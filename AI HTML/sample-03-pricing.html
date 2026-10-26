@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample 03 - Pricing</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f8fafc;
+        color: #0f172a;
+      }
+      .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 60px 20px;
+      }
+      .title {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      .plans {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+      .plan {
+        background: white;
+        border-radius: 20px;
+        padding: 30px 24px;
+        border: 1px solid #e2e8f0;
+        box-shadow: 0 10px 20px rgba(15, 23, 42, 0.05);
+      }
+      .plan.featured {
+        background: #111827;
+        color: white;
+      }
+      .price {
+        font-size: 2.5rem;
+        font-weight: bold;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+      }
+      li { margin: 8px 0; }
+      .btn {
+        display: inline-block;
+        padding: 12px 20px;
+        border-radius: 10px;
+        text-decoration: none;
+        background: #2563eb;
+        color: white;
+      }
+      .plan.featured .btn { background: white; color: #111827; }
+      @media (max-width: 760px) {
+        .plans { grid-template-columns: 1fr; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Simple pricing</h1>
+        <p>Choose the plan that fits your needs.</p>
+      </div>
+
+      <div class="plans">
+        <div class="plan">
+          <h3>Starter</h3>
+          <div class="price">$19</div>
+          <small>/month</small>
+          <ul>
+            <li>1 project</li>
+            <li>Email support</li>
+            <li>Basic analytics</li>
+          </ul>
+          <a class="btn" href="#">Start free</a>
+        </div>
+
+        <div class="plan featured">
+          <h3>Professional</h3>
+          <div class="price">$49</div>
+          <small>/month</small>
+          <ul>
+            <li>Unlimited projects</li>
+            <li>Priority support</li>
+            <li>Advanced reporting</li>
+          </ul>
+          <a class="btn" href="#">Get started</a>
+        </div>
+
+        <div class="plan">
+          <h3>Enterprise</h3>
+          <div class="price">$99</div>
+          <small>/month</small>
+          <ul>
+            <li>Custom integrations</li>
+            <li>Dedicated manager</li>
+            <li>Compliance tools</li>
+          </ul>
+          <a class="btn" href="#">Talk to sales</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

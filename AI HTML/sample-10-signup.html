@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample 10 - Sign Up</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: linear-gradient(135deg, #f8fafc, #dbeafe);
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+      }
+      .box {
+        background: white;
+        width: min(460px, 90vw);
+        padding: 36px;
+        border-radius: 22px;
+        box-shadow: 0 25px 50px rgba(37,99,235,0.12);
+      }
+      h2 { margin-top: 0; }
+      input {
+        width: 100%;
+        border: 1px solid #d1d5db;
+        border-radius: 12px;
+        padding: 12px 14px;
+        margin-bottom: 14px;
+        box-sizing: border-box;
+      }
+      button {
+        width: 100%;
+        border: none;
+        border-radius: 12px;
+        background: #2563eb;
+        color: white;
+        padding: 14px;
+        font-size: 1rem;
+      }
+      .muted { color: #6b7280; font-size: 0.9rem; }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h2>Create account</h2>
+      <form>
+        <input type="text" placeholder="Full name" />
+        <input type="email" placeholder="Email address" />
+        <input type="password" placeholder="Password" />
+        <button type="submit">Sign up</button>
+      </form>
+      <p class="muted">Already have an account? Log in.</p>
+    </div>
+  </body>
+</html>

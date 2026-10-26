@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample 08 - Landing Page</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #0f172a;
+        color: white;
+      }
+      .container {
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 30px 20px 80px;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .hero {
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+        gap: 30px;
+        padding: 70px 0;
+        align-items: center;
+      }
+      h1 {
+        font-size: 4rem;
+        line-height: 1.1;
+      }
+      .panel {
+        background: rgba(255,255,255,0.08);
+        border: 1px solid rgba(255,255,255,0.12);
+        border-radius: 18px;
+        padding: 24px;
+      }
+      .btn {
+        display: inline-block;
+        background: #38bdf8;
+        color: #082f49;
+        text-decoration: none;
+        padding: 14px 22px;
+        border-radius: 999px;
+        font-weight: bold;
+        margin-top: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div><strong>Nova</strong></div>
+        <div>Features Pricing Docs</div>
+      </nav>
+
+      <section class="hero">
+        <div>
+          <p>New release</p>
+          <h1>Launch smarter. Grow faster.</h1>
+          <p>Plan campaigns, measure performance, and automate customer experiences from one unified platform.</p>
+          <a class="btn" href="#">Start free</a>
+        </div>
+        <div class="panel">
+          <h3>Campaign overview</h3>
+          <p>+36% engagement vs last month</p>
+          <div style="height: 180px; background: linear-gradient(180deg, #38bdf8, #a78bfa); border-radius: 12px;"></div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

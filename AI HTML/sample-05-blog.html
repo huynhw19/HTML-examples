@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample 05 - Blog</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #fff;
+        color: #1f2937;
+      }
+      .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 40px 20px 80px;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 25px;
+        border-bottom: 1px solid #e5e7eb;
+      }
+      .article {
+        padding-top: 30px;
+      }
+      h1 {
+        font-size: 3rem;
+      }
+      .meta {
+        color: #6b7280;
+        margin-bottom: 20px;
+      }
+      .featured {
+        height: 300px;
+        background: linear-gradient(135deg, #a78bfa, #60a5fa);
+        border-radius: 20px;
+        margin: 20px 0 30px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+      }
+      .card {
+        border: 1px solid #e5e7eb;
+        border-radius: 18px;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div><strong>North Blog</strong></div>
+        <nav>Home Articles About</nav>
+      </div>
+
+      <article class="article">
+        <div class="meta">July 20, 2026 • 6 min read</div>
+        <h1>Designing for clarity in a noisy digital world</h1>
+        <div class="featured"></div>
+        <p>Good design is not about adding more. It is about creating more room for understanding, trust, and action.</p>
+        <p>When interfaces are built around user intent, they become more useful, more believable, and easier to love.</p>
+      </article>
+
+      <section class="grid" style="margin-top: 40px;">
+        <div class="card">
+          <h3>Why clean layouts matter</h3>
+          <p>Spacing, hierarchy, and rhythm reduce decision fatigue.</p>
+        </div>
+        <div class="card">
+          <h3>Writing better copy</h3>
+          <p>Clear language creates trust and accelerates conversions.</p>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample 07 - Product Card</title>
+    <style>
+      body {
+        margin: 0;
+        display: grid;
+        place-items: center;
+        min-height: 100vh;
+        background: #f5f5f4;
+        font-family: Arial, sans-serif;
+      }
+      .card {
+        width: 320px;
+        background: white;
+        border-radius: 24px;
+        overflow: hidden;
+        box-shadow: 0 20px 35px rgba(0,0,0,0.08);
+      }
+      .image {
+        height: 220px;
+        background: linear-gradient(135deg, #fde68a, #fca5a5);
+      }
+      .content {
+        padding: 20px;
+      }
+      .rating { color: #f59e0b; }
+      .price-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .price { font-size: 2rem; font-weight: bold; }
+      button {
+        background: #111827;
+        color: white;
+        border: none;
+        border-radius: 12px;
+        padding: 12px 18px;
+        margin-top: 16px;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="image"></div>
+      <div class="content">
+        <div class="rating">★★★★★</div>
+        <h2>Sunset Lamp</h2>
+        <p>Warm ambient lighting for cozy evenings.</p>
+        <div class="price-row">
+          <div class="price">$39</div>
+          <span>Free shipping</span>
+        </div>
+        <button>Add to cart</button>
+      </div>
+    </div>
+  </body>
+</html>

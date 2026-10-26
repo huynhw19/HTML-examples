@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample 12 - CSS Card Grid</title>
+    <style>
+      body {
+        margin: 0;
+        background: #f5f3ff;
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        max-width: 1000px;
+        margin: 60px auto;
+        padding: 0 20px;
+      }
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(200px, 1fr));
+        gap: 20px;
+      }
+      .card {
+        background: white;
+        border-radius: 20px;
+        padding: 24px;
+        box-shadow: 0 15px 25px rgba(124, 58, 237, 0.08);
+      }
+      .badge {
+        display: inline-block;
+        background: #ede9fe;
+        color: #6d28d9;
+        font-size: 0.8rem;
+        border-radius: 999px;
+        padding: 6px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Feature highlights</h1>
+      <div class="cards">
+        <div class="card">
+          <span class="badge">Fast</span>
+          <h3>Ship quicker</h3>
+          <p>Reduce time spent on repetitive tasks.</p>
+        </div>
+        <div class="card">
+          <span class="badge">Smart</span>
+          <h3>Make better choices</h3>
+          <p>Use insights to guide product decisions.</p>
+        </div>
+        <div class="card">
+          <span class="badge">Secure</span>
+          <h3>Stay protected</h3>
+          <p>Build with confidence and safeguards in place.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

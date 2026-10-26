@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample 01 - Hero</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f4f7fb;
+        color: #222;
+      }
+      .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 40px 20px;
+      }
+      header {
+        background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+        color: white;
+        padding: 20px 0;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+      .nav-links {
+        display: flex;
+        gap: 20px;
+      }
+      .hero {
+        display: grid;
+        grid-template-columns: 1.1fr 0.9fr;
+        gap: 30px;
+        align-items: center;
+        padding: 80px 0;
+      }
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 15px;
+      }
+      p {
+        line-height: 1.7;
+      }
+      .btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 14px 24px;
+        border-radius: 999px;
+        background: #fff;
+        color: #3b82f6;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .card {
+        background: white;
+        border-radius: 16px;
+        padding: 30px;
+        box-shadow: 0 16px 35px rgba(0,0,0,0.08);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">BrightWave</div>
+          <div class="nav-links">
+            <span>Features</span>
+            <span>Pricing</span>
+            <span>About</span>
+            <span>Contact</span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container hero">
+      <section>
+        <h1>Build better ideas faster.</h1>
+        <p>
+          Turn your concepts into polished digital experiences with a platform designed for teams who want speed, clarity, and quality.
+        </p>
+        <a class="btn" href="#">Get Started</a>
+      </section>
+      <section class="card">
+        <h2>Performance Snapshot</h2>
+        <p>Projects launched this quarter</p>
+        <h3 style="font-size: 3rem; margin: 0;">148</h3>
+        <ul>
+          <li>+42% growth</li>
+          <li>4.9/5 satisfaction</li>
+          <li>24/7 support</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
